@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Borel&family=Noto+Sans+Vithkuqi&family=Pacifico&family=Playfair+Display&family=Poppins:wght@300;400;500;600;700&family=Shadows+Into+Light&family=Vast+Shadow&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header class="header">
+        
+            <a href="homepage.html" class="logo"><i class="fa-solid fa-book" style="color: #ffffff;"></i> Book Store</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="fiction.html">Fiction</a></li>
+                <li><a href="non.html">Non-fiction</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </header>
+    
+    
+        <div class="hero-section">   
+        </div>
+        <main>
+            <h1>Contact Us</h1>
+            <form action="#" method="post">
+                <label for="contact-purpose">Contact Purpose:</label>
+                <select id="contact-purpose" name="contact-purpose">
+                    <option value="sell-books">I want to sell books</option>
+                    <option value="buy-books">I want to buy books</option>
+                </select>
+    
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <fieldset>
+                    <legend>Contact Preference:</legend>
+                    <label>
+                        <input type="checkbox" name="contact-preference" value="email"> By email
+                    </label>
+                    <label>
+                        <input type="checkbox" name="contact-preference" value="phone"> By phone
+                    </label>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Receive Weekly Newsletter:</legend>
+                    <label>
+                        <input type="radio" name="newsletter" value="yes" checked> Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="newsletter" value="no"> No
+                    </label>
+                </fieldset>
+    
+                <label for="extra-notes">Extra Notes:</label>
+                <textarea id="extra-notes" name="extra-notes" rows="4"></textarea>
+    
+                <div class="buttons">
+                    <button type="submit" class="sub">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </main>
+                <!-- footer -->
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+
+        <ul class="social_icon">
+            <li><a href=""><i class="fa-brands fa-facebook" ></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+
+        <ul class="menu">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+
+        </ul>
+        <p>Privacy Policy, Terms, Copyright</p>
+    </footer>    
+    </body>
+    </html>
+    
+</html>
