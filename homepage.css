@@ -219,6 +219,11 @@ body {
     transform: translateY(-5px);
 }
 
+.vid{
+  align-items: center;
+  padding-left: 40%;
+}
+
 footer{
     display: flex;
     justify-content: flex-end;
