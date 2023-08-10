@@ -219,9 +219,10 @@ body {
     transform: translateY(-5px);
 }
 
-.vid{
+.vid-holder{
+  display: flex;
   align-items: center;
-  padding-left: 40%;
+  justify-content: center;
 }
 
 footer{
